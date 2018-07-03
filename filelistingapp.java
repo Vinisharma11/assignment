@@ -10,7 +10,7 @@ public class Project {
 	             String s =  file.getName().toString();
 	             fileName.add(s);
 	        } else if (file.isDirectory()) {
-	            listf(file.getAbsolutePath(), files,fileName);
+	            list1(file.getAbsolutePath(), files,fileName);
 	        }
 	    }
 	}
